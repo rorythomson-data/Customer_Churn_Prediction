@@ -1,0 +1,33 @@
+artifacts/*
+!artifacts/**/.gitkeep
+catboost_info/
+
+data/*
+!data/**/.gitkeep
+models/*
+!models/**/.gitkeep
+
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+# large / derived data
+data/*
+!data/sample/**
+!data/**/.gitkeep
+
+# models and artifacts
+models/*
+!models/**/.gitkeep
+artifacts/*
+!artifacts/**/.gitkeep
+catboost_info/   # safety in case someone runs from repo root
+
+# tool noise
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Power BI project files
+reports/powerbi/*.pbix
