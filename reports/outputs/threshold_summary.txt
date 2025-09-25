@@ -1,0 +1,2 @@
+Best F1 threshold: 0.245  F1=0.668
+Best YoudenJ thr.: 0.195  J=0.693
